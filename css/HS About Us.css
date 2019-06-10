@@ -1,0 +1,112 @@
+
+.firstsection{
+    background-image: url("../imges/aboutus-back.jpg"), linear-gradient(to top , rgba(0, 0, 0, 0.966), rgba(255, 255, 255, 0.493));
+    
+}
+
+
+
+.imges3{
+	display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   justify-content: center;
+   justify-items: center;
+   padding-bottom: 30px;
+   margin: auto;
+   width: 70%;
+   grid-gap: 17px;
+}
+
+
+.imges3 p{
+    width: 80%;
+    margin: auto;
+}
+
+.greyaboutus{
+    text-align: center;
+    background-color: rgb(218, 214, 214);
+}
+    
+.img1{
+    
+    
+    background-image: url("../imges/ourMissionHome.jpg");
+  
+    
+}
+.img2{
+    background-image: url("../imges/ourVisionHome.jpg");
+  
+}
+.img3{
+    background-image: url("../imges/ourValuesHome.jpg");
+}
+.img1 , .img2 , .img3{
+    background-repeat: no-repeat;
+    width: 23vw;
+    height: 17vw;
+    position: relative;
+
+}
+.words{
+    margin-top: 25px;
+    padding-bottom: 25px;
+}
+.pad1{
+    padding: 30px;
+
+}
+.over{
+    background-color: rgba(0, 0, 0,0.5);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: none;
+}
+.padd{
+    padding: 70px;
+}
+.pad3{
+    padding: 36px;
+}
+.over img{
+    width:10vw;
+   
+}
+.img1:hover .over , .img2:hover .over ,.img3:hover .over{
+    display: block;
+}
+
+.WHATWEDO{
+    color: white;
+    font-family: f1;
+    font-size: 20px;
+    background-image:url("../imges/bgg2.jpg") ;
+    background-size: cover;
+    padding: 50px;
+    background-color:  rgba(0, 0, 0, 0.548);
+    background-blend-mode: overlay;
+}
+.h2service{
+    text-align: center;
+    padding:20px ;
+}
+.services{
+    color: white;
+    display: grid;
+    grid-template-columns: 50%  50%;
+    grid-template-rows: 3;
+    overflow: hidden;
+}
+.services p{
+    padding: 20px;
+    padding-top: 0px;
+    margin: auto;
+    font-family: f1;
+   
+}
+.serword{
+  padding: 20px;  
+}
+

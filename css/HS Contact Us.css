@@ -1,0 +1,51 @@
+.firstsection{
+    background-image: url("../imges/contact.jpg"), linear-gradient(to top , rgba(0, 0, 0, 0.966), rgba(255, 255, 255, 0.493));
+    
+}
+  
+.headline{
+text-align: center;
+padding-bottom: 20px;
+}
+.askinfo{
+    display: grid;
+    grid-template-columns: 30%  70%; 
+    padding:25px  150px  60px 150px  ;
+    grid-column-gap: 25px;
+    
+    
+}
+.askinfo h2{
+    padding-bottom: 15px;
+}
+.secondsection{
+    width: 1349px;
+}
+.socialmedia{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    color:gray;
+   
+}
+.socialmedia i{
+    font-size:25px;
+ 
+}
+.send a{
+    text-decoration: none;
+    color:black;
+}
+.namemail{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 20px; 
+    grid-row-gap: 30px;
+    
+}
+.namemail input{
+    border: none;
+    border-bottom: 2px solid rgb(100, 99, 99);
+}

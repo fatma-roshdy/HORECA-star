@@ -1,0 +1,394 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.firstsection{
+    background-image: url("../imges/homeBack.jpg"), linear-gradient(to top , rgba(0, 0, 0, 0.966), rgba(255, 255, 255, 0.493));
+    
+}
+.imges3{
+	display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   justify-content: center;
+   justify-items: center;
+   padding-bottom: 30px;
+   margin: auto;
+   width: 70%;
+   grid-gap: 17px;
+}
+.imges3 p{
+    width: 80%;
+    margin: auto;
+}
+
+.greyaboutus{
+    text-align: center;
+    background-color: rgb(218, 214, 214);
+    padding-top:50px;
+    
+}
+
+.imgbutton{
+    grid: 1fr,1fr,1fr;
+    
+    background-color: white;
+    color: green;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding:10px;
+}
+.words{
+    margin-top: 25px;
+    padding-bottom: 25px;
+}
+.pad1{
+    padding: 30px;
+
+}
+.img1{
+    
+    
+    background-image: url("../imges/ourMissionHome.jpg");
+  
+    
+}
+.img2{
+    background-image: url("../imges/ourVisionHome.jpg");
+  
+}
+.img3{
+    background-image: url("../imges/ourValuesHome.jpg");
+}
+.img1 , .img2 , .img3{
+    background-repeat: no-repeat;
+    width: 23vw;
+    height: 17vw;
+    position: relative;
+
+}
+.over{
+    background-color: rgba(0, 0, 0,0.5);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: none;
+}
+.padd{
+    padding: 70px;
+}
+.pad3{
+    padding: 36px;
+}
+.over img{
+    width:10vw;
+   
+}
+.img1:hover .over , .img2:hover .over ,.img3:hover .over{
+    display: block;
+}
+.NEW
+{
+    background-image: url(../imges/newsletter-back.jpg);
+    background-size: cover;
+    background-color: #0000005e;
+    background-blend-mode: overlay;
+    color: white;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.input{
+    position: relative;
+    width:55%;
+    margin: 30px auto 0 auto;
+}
+.maill{
+    background-color: rgba(255, 255, 255, 0.527);
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 40px;
+    width: 100%;
+}
+.NEWbutton{
+    width: 25%;
+    background-color: white;
+    color: orangered;
+    border: 2px solid white;
+    border-radius: 40px;
+    padding: 20px;
+    position: absolute;
+    right: 0;
+    top: 0px;  
+}
+.fourthsection{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+   justify-items: center;
+   justify-content: center;
+   grid-template-rows: auto;
+   padding-top: 90px;
+   padding-bottom: 90px;
+   width:70%;
+   align-items: center;
+   margin: auto;
+   text-align: left;
+   grid-gap: 17px;
+   
+
+}
+.orangborgderimg{
+    background-image: url(../imges/newToHoreca.jpg);
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 2px solid orangered;
+    background-size: cover;
+}
+.greenborgderimg{
+    background-image: url(../imges/p1.jpg);
+    width: 250px;
+    height: 250px;
+    border-radius:50%; 
+    border: 2px solid green;
+    background-size: cover;
+}
+
+.greenbotton{
+    background-color: #8aa952;
+    color: white;
+    border: 2px solid #8aa952;
+    border-radius: 40px;
+    padding: 10px;
+    width: 25%;
+    margin-top: 18px;
+}
+.menu{
+    visibility: hidden;
+}
+.ourbrand{
+    display: grid;
+    grid-template-columns: .2fr .5fr .5fr .5fr .5fr .5fr .5fr .2fr;
+    justify-items: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgb(218, 214, 214);
+}
+.ourbrand a{
+    font-size: 30px;
+}
+.whitebutton{
+    background-color: white;
+    color:orangered;
+    border: 2px solid white;
+    border-radius: 40px;
+    padding: 10px;
+}
+.oneimg{
+    background-image: url(../imges/L1.jpg);
+}
+.twoimg{
+    background-image: url(../imges/L2.jpg);
+}
+.threeimg{
+    background-image: url(../imges/L3.jpg);
+}
+.firstimges{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid white;
+    background-size: cover;
+    margin: auto;
+    margin-bottom: 21px;
+    margin-top: 40px;
+}
+
+.firstsectionOVERLAY{
+    margin-top: 200px;
+}
+.firstsectionOVERLAY p{
+font-size: 10px;
+}
+.grid-3div{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+   justify-items: center;
+   margin-left: 77px;
+}
+.grid-3div img{
+    margin: auto;
+}
+
+
+
+/* tab screen responsive */
+@media screen and (min-width:601px) and (max-width:1024px){
+    .firstsection{
+    height: 500%;
+    width: 154%;
+    background-size: cover;
+    
+  }
+  .headobj{
+    display: grid;
+    grid-template-columns: 90% 10%;
+    width:100%;
+   }
+  .links{
+    display:none;
+   }
+   .menu{
+    visibility:visible;
+    visibility: visible;
+    font-size: 42px;
+    color: white;
+   }
+  .logo{
+    width:90%;
+  }
+  .firstsectionOVERLAY{
+    margin: auto;
+    padding: 20px;
+  }
+  .firstsectionOVERLAY img{
+    width:90%;
+  }
+  .firstsectionOVERLAY p{
+    font-size: 60%;
+  }
+  .grid-3div{
+    grid-template-columns: 1fr;
+    margin: auto;
+  }
+  .firstimges{
+    width:160px;
+    height:160px; 
+  }
+  .homeaboutus {
+    width: 154%;
+  }
+  
+  .imges3{
+    grid-template-columns: 1fr;
+  }
+  .img1, .img2, .img3{
+   margin: auto;    
+  }
+  .NEWbutton{
+    margin-left:197px;
+  }
+  .input {
+    margin-right: 362px;
+  }
+ .ourbrand img{
+    width: 100px;
+}
+.ourbrand{
+    width: 154%; 
+}
+.footer{
+    width: 154%;
+}
+}
+
+
+/* mobile screen responsive */
+
+@media screen  and (max-width:600px) and (min-width:300px) {
+     .firstsection{
+        width: 87%;
+        background-size: cover;
+        
+      }
+      .headobj{
+        display: grid;
+        grid-template-columns: 90% 10%;
+        width:100%;
+       }
+      .links{
+        display:none;
+       }
+       .menu{
+        visibility: visible;
+        font-size: 30px;
+        color: white;
+       }
+      .logo img{
+        width:80%;
+      }
+      .firstsectionOVERLAY{
+        margin: auto;
+        padding: 20px;
+      }
+      .firstsectionOVERLAY img{
+        width:90%;
+      }
+      .firstsectionOVERLAY p{
+        font-size: 60%;
+      }
+      .grid-3div{
+        grid-template-columns: 1fr;
+        margin: auto;
+      }
+      .firstimges{
+        width:160px;
+        height:160px; 
+      }
+      .homeaboutus {
+        width: 211%;
+      }
+      
+      .imges3{
+        grid-template-columns: 1fr;
+      }
+      .img1, .img2, .img3{
+        margin: auto;
+        width: 101vw;
+        height: 50vw;   
+      }
+      
+      .NEWbutton{  
+       padding: 10px;
+      }
+      
+      .maill{
+        padding: 9px;
+      }
+     .ourbrand img{
+        width: 100px;
+    }
+    .ourbrand {
+        width: 211%;
+    }
+    .orangborgderimg{
+        order: -1;
+    }
+    .footer{
+        width: 211%;
+    }
+    .fourthsection{
+        grid-template-columns: 1fr ;
+    }
+    .fourthword{
+        text-align: center;
+    }
+    .contactus{
+        display: block;
+    }
+    .contactp{
+        margin: auto;
+    }
+    .contacth{
+        text-align: center;
+    }
+    .logopartner img:first-child{
+        border:none;
+    }
+    .logopartner{
+        display: block;
+        margin: auto;
+    text-align: center;
+    }
+    
+}
+

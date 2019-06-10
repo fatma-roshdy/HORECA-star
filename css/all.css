@@ -1,0 +1,148 @@
+@font-face{
+    font-family: f1;
+    src:url("../fonts/HelveticaNeueLTStd Lt.otf");
+}
+p,h1,h2,h3,h4,h5,h6{
+    margin: 0px;
+    font-family: f1;
+    
+}
+html {
+    overflow-x: hidden;
+}
+body{
+	margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.container{
+    width: 70%;
+}
+.orangred{
+    background-color: orangered;
+}
+.orang{
+    background-color: rgb(255, 144, 70);
+    
+}
+.orangbotton{
+    background-color:  rgb(255, 144, 70);
+    color: white;
+    border: 2px solid rgb(255, 144, 70);
+    border-radius: 40px;
+    padding: 10px;
+    width: 25%;
+    margin-top: 18px;
+    
+}
+.green{
+    background-color: #8aa952;
+}
+.gray{
+    background-color:#9b9795;
+}
+.orangtext{
+    color: orangered;
+}
+.greentext{
+    color: green;
+}
+
+.links a:last-child{
+    color: orangered;
+}
+
+.border{
+   box-sizing: border-box;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-wrap:row-wrap;
+   background-color:  rgba(135, 166, 76, 0.527);
+}
+.links{
+    padding: 28px;
+    font-family: f1;
+}
+.headobj a {
+    text-decoration: none;
+    color: white;
+    padding:5px;
+
+}
+.firstsection{
+    background-blend-mode: overlay;
+    height: 1060px;
+    
+}
+.logo{
+    padding: 20px;
+}
+.firstsectionOVERLAY{
+    width:60%;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    font-family: f1;
+    font-size: 25px;
+    margin-top: 445px;
+    }
+    .firstsectionOVERLAY p,h2{
+        font-family: f1;
+        margin: 0px;
+        padding: 20px;
+    }
+    
+.porang{
+    margin: 0px;
+    padding: 10px;
+    color: white;
+    padding-left: 15px;
+   }
+.social{
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.contactus{
+    background-image: url("../imges/footer-bg.jpg") ; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap:row-wrap;
+    background-color:  rgba(0, 0, 0, 0.548);
+    background-blend-mode: overlay;
+    padding: 20px;
+    background-size: cover;
+}
+.contact{
+    color: white;
+   
+}
+.contacth{
+    padding: 5px;
+}
+.contactp{
+    background-image: url(../imges/bracketsfooter.png);
+    background-size: cover;
+    width: 208px;
+    font-size: 13px;
+    text-align: center;
+    padding: 24px;
+   
+}
+.logopartner{
+    display: flex;
+	align-items: center;
+}
+.logopartner img:first-child{
+    padding: 19px;
+    border-right: 3px solid white;
+    margin-right: 20px;
+}
+.logopartner p{padding: 20;
+    padding-top: 0px;
+    color: white;
+    font-size: 18px;}
